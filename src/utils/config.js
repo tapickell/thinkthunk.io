@@ -1,7 +1,7 @@
 const colors = require("../styles/colors");
 
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: "/thinkthunk.io",
   appName: "thinkthunk.io",
   siteTitle: "ThinkThunk - The screencast you need to listen to if your passionate about software engineering.",
   siteUrl: "https://thinkthunk.io",
