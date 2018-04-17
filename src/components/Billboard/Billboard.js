@@ -279,7 +279,7 @@ class Billboard extends React.Component {
     return data[`phone${imgWidth}`].edges.find(
       el =>
         el.node.resolutions.originalName ===
-        (version === "perspective" ? "phone-perspective.png" : "phone.png")
+        (version === "perspective" ? "phone.png" : "phone.png")
     ).node.resolutions[`${srcType}${fileType}`];
   }
 
